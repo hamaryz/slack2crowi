@@ -12,15 +12,18 @@ git clone https://github.com/hamaryz/slack2crowi.git
 cd slack2growi
 ```
 
-2. APIキーなどを登録する
+2. APIキーなどを登録する(setup.pyを利用)
 ```
 python setup.py
-input slack token: xxxxxxxx
-input crowi token: xxxxxxxx
-input crowi URL(including http or https): xxxxxxxx
+input slack token: xxxxxxxx              # SlackのAPIキーを入力
+input crowi token: xxxxxxxx              # CrowiのAPIキーを入力する
+input crowi URL(including http or https): htts://example.com   # CrowiのURLを入力する
 ```
 
 3. Slackのチャネル名を指定して実行する
 ```
 python slack2crowi.py -n [Slack Channel Name]
 ```
+
+# Output
+/\[Slack Channel Name\]のパスにSlackのメッセージが登録されます
