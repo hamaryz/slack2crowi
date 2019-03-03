@@ -26,4 +26,4 @@ python slack2crowi.py -n [Slack Channel Name]
 ```
 
 # Output
-/\[Slack Channel Name\]のパスにSlackのメッセージが登録されます
+/slack/\[Slack Channel Name\]のパスにSlackのメッセージが登録されます
